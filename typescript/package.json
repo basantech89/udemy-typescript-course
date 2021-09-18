@@ -1,0 +1,22 @@
+{
+  "name": "udemy_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc app.ts",
+    "start": "lite-server",
+    "init": "tsc --init",
+    "watch": "tsc -w",
+    "types": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "prettier": "^2.4.0",
+    "typescript": "^4.4.2"
+  }
+}
